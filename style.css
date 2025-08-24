@@ -1,0 +1,249 @@
+.body{
+    background-color: rgb(68, 61, 61);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 75px 75px 75px;
+    padding: 10px;
+    grid-template-areas: 
+        "nose header header"
+        "main main aside"
+        "footer a b";
+}
+
+.item{
+    display: grid;
+    font-size: 4rem;
+    gap: 20px;
+}
+.item-1{
+    grid-area: nose;
+}
+
+.item-2{
+    grid-area: header;
+}
+
+.item-3{
+    grid-area: header;
+   
+}
+
+.item-4{
+    grid-area: main;
+}
+
+.item-5{
+    grid-area: main;
+}
+
+.item-6{
+    grid-area: aside;
+}
+
+.item-7{
+    grid-area: footer;
+}
+
+.item-8{
+    grid-area: a;
+}
+
+.item-9{
+    grid-area: b;
+}
+
+.item-1 img{
+    width: 101%;
+    height: 75%;
+
+}
+
+.item-2 img{
+    width: 100%;
+    height: 40%;
+
+}
+
+.item-3 img{
+    width: 100%;
+    height: 40%;
+}
+
+.item-4 img{
+    width: 100%;
+    height: 67%;
+}
+
+.item-5 img{
+    width: 100%;
+    height: 67%;
+}
+
+.item-6 img{
+    width: 100%;
+    height: 102%;
+}
+
+.item-7 img{
+    width: 100%;
+    height: 75%;
+}
+
+.item-8 img{
+    width: 100%;
+    height: 100%;
+}
+
+.item-9 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos del login */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b2a29;
+}
+
+/* Contenedor principal */
+.main {
+    background: #ffffffd5;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Formulario */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* Inputs */
+.input-name,
+input[type="password"] {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1.5px solid #000000;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+}
+
+/* Botón */
+input[type="submit"] {
+    background: #4facfe;
+    color: #fff;
+    border: none;
+    padding: 0.9rem;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+input[type="submit"]:hover {
+    background: #00c6ff;
+}
+
+/* Ocultar labels */
+.hidden {
+    display: none;
+}
+
+/* Estilos del formulario */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef2f3;
+}
+
+/* Contenedor */
+main {
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+/* Formulario */
+.formulario {
+    background: #fff;
+    padding: 1.8rem;
+    border-radius: 1rem;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Campos */
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    margin-bottom: 0.3rem;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.campo input,
+.campo select {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+/* Botón */
+.campo button {
+    padding: 0.7rem;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.campo button:hover {
+    background: #00c6ff;
+}
